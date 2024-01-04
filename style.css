@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
 }
 ul li{
@@ -82,4 +82,126 @@ footer a{
     color: tomato;
     font-size: 24pz;
    text-align: center;
+} */
+*{
+    margin:  0;
+    padding: 0;
 }
+header{
+    display: flex;
+    background-color: #555;
+    color: white;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    margin-left: 80px;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #555;
+}
+
+.Portfolio div{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.Portfolio img{
+    width: 420px;
+    height: 500px;
+}
+.Portfolio p{
+    width: 50%;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(97, 94, 94);
+    border-radius: 5px 40px;
+}
+.Portfolio h2{
+    font-size: 36px;
+    color: #555;
+    margin-left: 60%;
+    margin-top: 80px;
+}
+.Portfolio img:hover{
+    box-shadow: 10px 10px 10px #555;
+    border: 1px solid #555;
+    border-radius: 40px 10px;
+}
+.about{
+    background-image: url(computer-science-vs-computer-engineering-.jpg);
+    width: 100%;
+    height: 700px;  
+    margin-top: 20px;
+}
+.about div{
+    padding-top: 40%;
+    font-size: 32px;
+    color: #fff;
+}
+.about:hover{
+    box-shadow: 10px 10px 10px #555;
+    border: 2px solid rgb(105, 102, 102);
+    border-radius: 50px 30px;
+}
+
+.Services p{
+    font-size: 24px;
+    background-color: #555;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px 40px;
+    width: 60%;
+    margin-top: 60px;
+    padding: 10px;
+}
+.Services p:hover{
+    box-shadow: 10px 10px 10px #555;
+}
+#Contact input{
+    font-size: 22px;
+    color: tomato;
+    padding: 10px;
+    margin: 5px;
+    width: 90%;
+}
+#Contact textarea{
+    width: 500px;
+    height: fit-content;
+}
+#Contact button{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 40px 5px;
+    color: tomato;
+    font-size: 22px;
+    background-color: #555;
+}
+#Contact form{
+    margin-left: 60px;
+}
+footer{
+    background-color: #555;
+    color: tomato;
+    font-size: 24px;
+    height: 60px;
+    margin-top: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 24pz;
+   text-align: center;
+}
+
